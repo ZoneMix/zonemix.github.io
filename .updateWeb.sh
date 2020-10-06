@@ -1,4 +1,4 @@
 #!/bin/bash
 git -C /var/www/jekyll/zonemix.github.io pull
 sleep 1
-/usr/local/bin/jekyll build
+/usr/local/bin/jekyll build /var/www/jekyll/zonemix.github.io
